@@ -1,0 +1,497 @@
+/* for bildet på toppen */
+img{
+    max-width: 100%;
+    width: 2000px;
+    height:250px;
+    object-fit: cover;
+    border-radius: 20px; 
+    opacity: 0.8;
+}
+
+/* for navbar */
+
+.navbar{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(142, 221, 237);
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:red
+}
+
+.dropdown:hover{
+    color: red
+}
+
+.dropdown{
+    cursor: pointer;
+    text-align: center;
+    min-width: 0px;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgb(142, 221, 237);
+    min-width: 140px;
+    padding: 5px;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+    color:black;
+    font-size: small;
+}
+
+li{
+    display: inline-flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbaricons{
+    display: none;
+}
+
+.icons{
+    padding:10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 0px; 
+}
+
+/* for innhold */
+
+h1{
+    font-size: xx-large;
+    line-height: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul2{
+    list-style-type: none;
+    margin: 5px auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(142, 221, 237);
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.ul3{
+    list-style-type: none;
+    margin: 5px auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(142, 221, 237);
+    border-radius: 20px;
+    width: 75%;
+    text-align: center;
+}
+
+.li2{
+    float: none;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 20px;
+    background-color: rgb(142, 221, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.li3{
+    display: list-item;
+    float: none;
+    padding-left: 10px;
+    padding-right: 0px;
+    background-color: rgb(142, 221, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.dropdown2{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+    min-width: 100px;
+}
+
+.dropdown2:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red
+}
+
+.dropdown_content2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    display: none;
+    position: center;
+    min-width: 140px;
+    padding: 10px;
+}
+
+.dropdown2:hover .dropdown_content2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    display: block;
+    color:black;
+}
+
+.dropdown3:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red
+}
+
+.dropdown3{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+    min-width: 100px;
+}
+
+.dropdown_content3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    display: none;
+    position: center;
+    min-width: 140px;
+    padding: 10px;
+}
+
+.dropdown3:hover .dropdown_content3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    display: block;
+    color:black;
+}
+
+/* for mindre skjermer*/
+
+@media only screen and (max-width: 1200px) {
+    img{
+        max-width: 100%;
+        width: 2000px;
+        height:200px;
+        object-fit: cover;
+        border-radius: 20px;
+        opacity: 0.8;
+    }
+    li{
+        display: inline-flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .navbaricons{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    img{
+    max-width: 100%;
+    width: 2000px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+    li{
+        display: inline-flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .navbaricons{
+        display: none;
+    }
+    .dropdown_content{
+        right:0px;
+        left: auto;
+    }
+}
+
+/* for mobil */
+/* her introduserer jeg også animasjoner på linkene slik at brukeren ser at man kan "interact" */
+
+@media only screen and (max-width: 750px){
+    img{
+        max-width: 100%;
+        width: 2000px;
+        height:100px;
+        object-fit: cover;
+        border-radius: 20px;
+        opacity: 0.8;
+    }
+    .navbar{
+        font-size: small;
+    }
+    li{
+        display: inline-flex;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .dropdown{
+        min-width: 0px;
+    }
+    h1{
+        font-size:25px;
+    }
+    .navbaricons{
+        display: none;
+    }
+    .ul2{
+        list-style-type: none;
+        margin: 5px auto;
+        padding: 10px;
+        overflow: hidden;
+        background-color: rgb(142, 221, 237);
+        border-radius: 20px;
+        width: 75%;
+        text-align: center;
+    }
+    .ul3{
+        list-style-type: none;
+        margin: 5px auto;
+        padding: 10px;
+        overflow: hidden;
+        background-color: rgb(142, 221, 237);
+        border-radius: 20px;
+        width: 75%;
+        text-align: center;
+    }
+    p{
+        font-size: small;
+    }
+    a{
+        font-size: small;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: medium;
+    }
+    .dropdown2{
+        font-size: small;
+    }
+    .dropdown3{
+        font-size: small;
+    }
+    .dropdown_content{
+        right:0px;
+        left: auto;
+    }
+
+    a{
+        animation: pulse 5s infinite;
+    }
+    .dropdown{
+        animation: pulse 5s infinite;
+    }
+    .dropdown2{
+        animation: pulse 5s infinite;
+    }
+    .dropdown3{
+        animation: pulse 5s infinite;
+    }
+
+    @keyframes pulse{
+        0%{
+            color:red;
+        }
+        50%{
+            color:black;
+        }
+        100%{
+            color:red;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .navbartext{
+        display: none;
+    }
+    .navbaricons{
+        display: inline-flex;
+    }
+    .ul2{
+        list-style-type: none;
+        margin: 5px auto;
+        padding: 10px;
+        overflow: hidden;
+        background-color: rgb(142, 221, 237);
+        border-radius: 20px;
+        width: 75%;
+        text-align: center;
+    }
+    .ul3{
+        list-style-type: none;
+        margin: 5px auto;
+        padding: 10px;
+        overflow: hidden;
+        background-color: rgb(142, 221, 237);
+        border-radius: 20px;
+        width: 75%;
+        text-align: center;
+    }
+    p{
+        font-size: small;
+    }
+    a{
+        font-size: small;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: medium;
+    }
+    .dropdown2{
+        font-size: small;
+    }
+    .dropdown3{
+        font-size: small;
+    }
+    .dropdown_content{
+        right:0px;
+        left: auto;
+    }
+
+    a{
+        animation: pulse 5s infinite;
+    }
+    @keyframes pulse{
+        0%{
+            color:red;
+        }
+        50%{
+            color:black;
+        }
+        100%{
+            color:red;
+        }
+    }
+}
+
+@media only screen and (max-width: 275px){
+    .navbartext{
+        display: none;
+    }
+    .navbaricons{
+        display: inline-flex;
+    }
+    .ul2{
+        list-style-type: none;
+        margin: 5px auto;
+        padding: 10px;
+        overflow: hidden;
+        background-color: rgb(142, 221, 237);
+        border-radius: 20px;
+        width: 75%;
+        text-align: center;
+    }
+    .ul3{
+        list-style-type: none;
+        margin: 5px auto;
+        padding: 10px;
+        overflow: hidden;
+        background-color: rgb(142, 221, 237);
+        border-radius: 20px;
+        width: 75%;
+        text-align: center;
+    }
+    p{
+        font-size: small;
+    }
+    a{
+        font-size: small;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: medium;
+    }
+    .dropdown_content{
+        max-width: 50px;
+    }
+    .dropdown_content a{
+        font-size: xx-small;
+    }
+    .dropdown2{
+        font-size: small;
+    }
+    .dropdown3{
+        font-size: small;
+    }
+    .icons{
+        padding:10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 0px; 
+    }
+
+    a{
+        animation: pulse 5s infinite;
+    }
+    @keyframes pulse{
+        0%{
+            color:red;
+        }
+        50%{
+            color:black;
+        }
+        100%{
+            color:red;
+        }
+    }
+}
