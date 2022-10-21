@@ -170,38 +170,10 @@ p{
     display: none;
     position: center;
     min-width: 140px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .dropdown2:hover .dropdown_content2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    display: block;
-    color:black;
-}
-
-.dropdown3:hover{
-    font-family: Arial, Helvetica, sans-serif;
-    color: red
-}
-
-.dropdown3{
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    position: center;
-    min-width: 100px;
-}
-
-.dropdown_content3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    display: none;
-    position: center;
-    min-width: 140px;
-    padding: 10px;
-}
-
-.dropdown3:hover .dropdown_content3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     display: block;
@@ -322,9 +294,7 @@ p{
     .dropdown2{
         font-size: small;
     }
-    .dropdown3{
-        font-size: small;
-    }
+
     .dropdown_content{
         right:0px;
         left: auto;
@@ -337,9 +307,6 @@ p{
         animation: pulse 5s infinite;
     }
     .dropdown2{
-        animation: pulse 5s infinite;
-    }
-    .dropdown3{
         animation: pulse 5s infinite;
     }
 
@@ -396,9 +363,6 @@ p{
         font-size: medium;
     }
     .dropdown2{
-        font-size: small;
-    }
-    .dropdown3{
         font-size: small;
     }
     .dropdown_content{
@@ -468,9 +432,6 @@ p{
         font-size: xx-small;
     }
     .dropdown2{
-        font-size: small;
-    }
-    .dropdown3{
         font-size: small;
     }
     .icons{
