@@ -294,9 +294,11 @@ p{
     }
     p{
         font-size: small;
+        font-weight: bold;
     }
     a{
         font-size: small;
+        font-weight: bold;
     }
     h2{
         font-size: medium;
@@ -375,11 +377,13 @@ p{
         width: 75%;
         text-align: center;
     }
-    p{
+   p{
         font-size: small;
+        font-weight: bold;
     }
     a{
         font-size: small;
+        font-weight: bold;
     }
     h2{
         font-size: medium;
@@ -453,9 +457,11 @@ p{
     }
     p{
         font-size: small;
+        font-weight: bold;
     }
     a{
         font-size: small;
+        font-weight: bold;
     }
     h2{
         font-size: medium;
