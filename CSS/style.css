@@ -29,15 +29,16 @@ ul{
 a{
     text-decoration: none;
     color: black;
+    transition: all 250ms;
 }
 
 a:hover{
-    font-size: 20px;
+    font-size: 25px;
     color:red
 }
 
 .dropdown:hover{
-    font-size: 20px;
+    font-size: 25px;
     color: red
 }
 
@@ -45,6 +46,7 @@ a:hover{
     cursor: pointer;
     text-align: center;
     min-width: 0px;
+    transition: all 250ms;
 }
 
 .dropdown_content{
@@ -160,10 +162,11 @@ p{
     position: center;
     min-width: 100px;
     padding-bottom: 20px;
+    transition: all 250ms;
 }
 
 .dropdown2:hover{
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: red
 }
@@ -206,6 +209,11 @@ p{
     .navbaricons{
         display: none;
     }
+    .dropdown_content{
+        right:0px;
+        left: auto;
+    }
+    
 }
 
 @media only screen and (max-width: 1000px) {
@@ -215,8 +223,8 @@ p{
     height:150px;
     object-fit: cover;
     border-radius: 20px;
-    opacity: 0.8;
-}
+    opacity: 0.8; 
+    }
     li{
         display: inline-flex;
         padding-left: 10px;
@@ -299,10 +307,22 @@ p{
     .dropdown2{
         font-size: small;
     }
-
     .dropdown_content{
         right:0px;
         left: auto;
+    }
+    a:hover{
+        font-size: 20px;
+        color:red
+    }
+    .dropdown:hover{
+        font-size: 20px;
+        color: red
+    }
+    .dropdown2:hover{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red
     }
 
     a{
@@ -361,9 +381,6 @@ p{
     a{
         font-size: small;
     }
-    a:hover{
-        font-size:15px;
-    }
     h2{
         font-size: medium;
     }
@@ -376,6 +393,19 @@ p{
     .dropdown_content{
         right:0px;
         left: auto;
+    }
+    a:hover{
+        font-size: 20px;
+        color:red
+    }
+    .dropdown:hover{
+        font-size: 20px;
+        color: red
+    }
+    .dropdown2:hover{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red
     }
 
     a{
@@ -447,6 +477,19 @@ p{
         width: 30px;
         height: 30px;
         border-radius: 0px; 
+    }
+    a:hover{
+        font-size: 20px;
+        color:red
+    }
+    .dropdown:hover{
+        font-size: 20px;
+        color: red
+    }
+    .dropdown2:hover{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red
     }
 
     a{
